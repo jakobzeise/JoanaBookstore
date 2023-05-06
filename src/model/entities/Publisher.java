@@ -8,8 +8,8 @@ public class Publisher extends Person{
 
         public Publisher(String firstName, String lastName, String email) {}
 
-        public Publisher(String firstName, String lastName, String email, Address address, String phone) {
-            super(firstName,lastName,email);
+        public Publisher(String name, String lastName, String email, Address address, String phone) {
+            super(name,email);
             this.address = address;
             this.phone = phone;
         }

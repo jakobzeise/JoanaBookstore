@@ -1,6 +1,7 @@
 package model.entities;
 
-import model.interfaces.I_Searchable;
 
-public class AuthorSearch implements I_Searchable {
+import model.interfaces.ISearchable;
+
+public class AuthorSearch implements ISearchable {
 }

@@ -11,7 +11,6 @@ public class Book {
     private double price;
     private LocalDate publishingYear;
     private String category;
-
     public Book(String title, int pages, Author author, Publisher publisher, double price, LocalDate publishingYear, String category) {
         this.title = title;
         this.pages = pages;
